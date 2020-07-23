@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: petclinic-dev
+  labels:
+    developer-namespace: "yes"
