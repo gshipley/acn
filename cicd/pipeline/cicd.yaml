@@ -465,8 +465,6 @@ spec:
     params:
     - name: BUILDER_IMAGE
       value: $(params.BUILDER_IMAGE)
-    - name: SOURCE_SUBPATH
-      value: $(params.SOURCE_SUBPATH)
     resources:
       inputs:
       - name: source
