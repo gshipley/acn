@@ -24,6 +24,7 @@ class WelcomeController {
 
 	@GetMapping("/")
 	public String welcome() {
+		System.out.println("This is from a class file");
 		return "welcome";
 	}
 
